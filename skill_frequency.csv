@@ -1,0 +1,45 @@
+skill,count
+python,451
+aws,451
+java,425
+react,419
+javascript,418
+machine learning,413
+sql,403
+ci/cd,155
+typescript,126
+azure,104
+html,99
+node,93
+css,91
+kubernetes,84
+angular,82
+docker,65
+terraform,63
+rest api,58
+gcp,58
+django,50
+git,46
+postgresql,41
+c#,41
+linux,41
+mongodb,38
+deep learning,37
+mysql,35
+flask,33
+nosql,24
+jenkins,24
+kafka,21
+power bi,20
+graphql,19
+vue,17
+spark,15
+pytorch,15
+pandas,12
+c++,11
+tensorflow,9
+redis,8
+excel,7
+hadoop,5
+tableau,3
+go,2

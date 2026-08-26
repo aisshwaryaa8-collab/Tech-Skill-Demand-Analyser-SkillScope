@@ -1,0 +1,10 @@
+KEY FINDINGS
+========================================
+- Analyzed 2959 job postings.
+- 78.9% of postings mentioned at least one whitelisted skill.
+- Most in-demand skill: 'python' (451 postings).
+- Top 3 skills overall: python, aws, java.
+- Most common skill pairing: 'javascript' + 'react' (227 postings mention both).
+- Salary varies noticeably by skill — see salary_by_skill.png for the breakdown.
+
+Charts saved: top_skills.png, skill_heatmap.png, salary_by_skill.png

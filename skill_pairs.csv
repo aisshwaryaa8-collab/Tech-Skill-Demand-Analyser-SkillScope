@@ -1,0 +1,563 @@
+skill_a,skill_b,count
+javascript,react,227
+javascript,typescript,94
+javascript,node,90
+aws,python,88
+react,typescript,88
+html,javascript,87
+css,html,83
+css,javascript,82
+python,sql,78
+aws,ci/cd,68
+node,react,58
+java,react,57
+html,react,56
+css,react,55
+java,javascript,52
+aws,terraform,51
+machine learning,python,50
+django,python,49
+python,rest api,48
+java,sql,46
+angular,javascript,46
+aws,azure,45
+aws,sql,44
+aws,kubernetes,44
+docker,kubernetes,43
+aws,java,42
+ci/cd,kubernetes,38
+angular,java,38
+javascript,sql,37
+aws,docker,37
+deep learning,machine learning,37
+aws,javascript,35
+angular,react,34
+ci/cd,python,33
+flask,python,33
+python,react,33
+ci/cd,docker,33
+aws,gcp,32
+aws,react,32
+javascript,python,30
+ci/cd,terraform,30
+azure,gcp,28
+azure,sql,27
+java,python,27
+react,sql,27
+kubernetes,terraform,27
+azure,ci/cd,26
+django,flask,25
+node,typescript,24
+azure,python,23
+css,typescript,23
+docker,python,23
+ci/cd,java,22
+aws,node,22
+angular,html,22
+html,typescript,21
+ci/cd,javascript,20
+html,node,20
+aws,typescript,20
+aws,machine learning,20
+python,terraform,20
+azure,kubernetes,19
+java,kubernetes,19
+java,typescript,19
+mysql,postgresql,18
+nosql,sql,18
+css,node,18
+docker,java,18
+gcp,kubernetes,18
+angular,css,18
+postgresql,python,17
+git,javascript,17
+docker,javascript,17
+kubernetes,python,17
+c#,sql,17
+git,sql,16
+javascript,vue,16
+azure,react,16
+machine learning,sql,16
+aws,linux,16
+html,java,16
+ci/cd,gcp,15
+ci/cd,git,15
+power bi,sql,15
+node,python,15
+git,html,15
+git,react,15
+azure,docker,15
+ci/cd,node,15
+linux,python,15
+angular,typescript,15
+gcp,python,14
+ci/cd,sql,14
+git,python,14
+mongodb,python,14
+css,git,14
+ci/cd,react,14
+javascript,mongodb,14
+mongodb,react,14
+ci/cd,jenkins,14
+java,kafka,14
+angular,node,14
+git,java,13
+mysql,sql,13
+django,sql,13
+c#,react,13
+docker,terraform,13
+docker,node,13
+javascript,mysql,13
+java,mongodb,13
+java,node,13
+python,pytorch,13
+ci/cd,linux,13
+kubernetes,linux,13
+aws,jenkins,13
+docker,linux,13
+postgresql,sql,12
+react,vue,12
+graphql,react,12
+azure,javascript,12
+aws,spark,12
+css,sql,12
+pandas,python,12
+git,jenkins,12
+docker,gcp,12
+machine learning,pytorch,12
+aws,git,11
+java,postgresql,11
+mysql,python,11
+ci/cd,typescript,11
+docker,git,11
+javascript,kubernetes,11
+javascript,postgresql,11
+jenkins,python,11
+angular,sql,11
+css,java,11
+html,sql,11
+linux,sql,11
+aws,postgresql,10
+azure,java,10
+gcp,java,10
+python,spark,10
+django,react,10
+flask,react,10
+mongodb,postgresql,10
+flask,sql,10
+html,mysql,10
+postgresql,react,10
+docker,jenkins,10
+gcp,sql,9
+git,postgresql,9
+nosql,python,9
+javascript,nosql,9
+c#,javascript,9
+angular,python,9
+javascript,terraform,9
+mongodb,sql,9
+mongodb,node,9
+kubernetes,node,9
+css,mysql,9
+azure,terraform,9
+git,linux,9
+java,machine learning,9
+c++,python,9
+azure,git,8
+git,mysql,8
+python,typescript,8
+azure,flask,8
+node,sql,8
+docker,react,8
+spark,sql,8
+aws,kafka,8
+aws,mongodb,8
+angular,vue,8
+postgresql,typescript,8
+angular,mongodb,8
+pytorch,tensorflow,8
+jenkins,kubernetes,8
+gcp,terraform,8
+c#,python,8
+mongodb,typescript,8
+java,mysql,7
+mongodb,mysql,7
+aws,django,7
+aws,nosql,7
+azure,django,7
+nosql,react,7
+graphql,typescript,7
+machine learning,react,7
+kafka,sql,7
+node,postgresql,7
+mysql,react,7
+machine learning,pandas,7
+java,nosql,7
+java,linux,7
+jenkins,linux,7
+docker,sql,7
+java,rest api,7
+html,python,7
+machine learning,tensorflow,7
+azure,postgresql,6
+ci/cd,mysql,6
+ci/cd,postgresql,6
+gcp,machine learning,6
+azure,c#,6
+docker,typescript,6
+git,typescript,6
+graphql,javascript,6
+git,node,6
+angular,aws,6
+kafka,python,6
+node,vue,6
+mysql,node,6
+python,tensorflow,6
+azure,jenkins,6
+linux,terraform,6
+java,jenkins,6
+kubernetes,sql,6
+django,mongodb,6
+django,postgresql,6
+sql,typescript,6
+aws,graphql,6
+aws,mysql,5
+azure,power bi,5
+mysql,nosql,5
+nosql,postgresql,5
+django,javascript,5
+node,nosql,5
+azure,html,5
+azure,typescript,5
+git,kubernetes,5
+javascript,rest api,5
+react,rest api,5
+graphql,node,5
+java,terraform,5
+node,terraform,5
+react,terraform,5
+terraform,typescript,5
+aws,html,5
+ci/cd,mongodb,5
+kafka,mongodb,5
+aws,pytorch,5
+aws,tensorflow,5
+pandas,sql,5
+azure,linux,5
+angular,git,5
+pandas,pytorch,5
+css,mongodb,5
+css,python,5
+graphql,python,5
+html,mongodb,5
+html,linux,5
+azure,machine learning,5
+docker,postgresql,5
+excel,java,5
+aws,rest api,4
+power bi,python,4
+hadoop,spark,4
+css,vue,4
+html,vue,4
+flask,nosql,4
+graphql,java,4
+azure,css,4
+ci/cd,rest api,4
+ci/cd,machine learning,4
+docker,machine learning,4
+javascript,machine learning,4
+graphql,postgresql,4
+javascript,redis,4
+mysql,typescript,4
+postgresql,redis,4
+jenkins,terraform,4
+git,mongodb,4
+kafka,kubernetes,4
+angular,kafka,4
+javascript,kafka,4
+kafka,react,4
+kafka,typescript,4
+angular,ci/cd,4
+css,nosql,4
+mongodb,nosql,4
+django,git,4
+django,machine learning,4
+javascript,linux,4
+django,mysql,4
+gcp,jenkins,4
+jenkins,sql,4
+angular,c#,4
+aws,c#,4
+azure,node,4
+jenkins,postgresql,4
+linux,postgresql,4
+docker,mysql,4
+deep learning,python,4
+deep learning,sql,4
+deep learning,tensorflow,4
+git,nosql,4
+aws,power bi,3
+gcp,git,3
+postgresql,power bi,3
+hadoop,python,3
+aws,flask,3
+django,nosql,3
+flask,javascript,3
+c#,html,3
+azure,rest api,3
+ci/cd,graphql,3
+css,docker,3
+css,rest api,3
+docker,graphql,3
+docker,html,3
+html,rest api,3
+kubernetes,react,3
+javascript,jenkins,3
+machine learning,typescript,3
+aws,hadoop,3
+aws,css,3
+css,machine learning,3
+html,machine learning,3
+kubernetes,mongodb,3
+graphql,mysql,3
+node,redis,3
+nosql,typescript,3
+docker,mongodb,3
+angular,rest api,3
+sql,tableau,3
+kubernetes,machine learning,3
+pytorch,sql,3
+angular,postgresql,3
+graphql,mongodb,3
+html,nosql,3
+angular,django,3
+css,linux,3
+django,linux,3
+linux,nosql,3
+flask,postgresql,3
+ci/cd,flask,3
+docker,flask,3
+flask,mysql,3
+python,vue,3
+flask,git,3
+gcp,react,3
+linux,mysql,3
+c#,c++,3
+c#,java,3
+gcp,linux,3
+linux,react,3
+django,graphql,3
+deep learning,pytorch,3
+ci/cd,nosql,3
+gcp,mongodb,3
+gcp,typescript,3
+c#,typescript,3
+c#,ci/cd,3
+azure,mysql,2
+gcp,mysql,2
+gcp,power bi,2
+java,spark,2
+azure,nosql,2
+c#,css,2
+ci/cd,css,2
+ci/cd,html,2
+css,graphql,2
+docker,rest api,2
+graphql,html,2
+graphql,kubernetes,2
+kubernetes,rest api,2
+kubernetes,typescript,2
+rest api,typescript,2
+jenkins,react,2
+machine learning,node,2
+git,terraform,2
+ci/cd,kafka,2
+graphql,nosql,2
+mysql,redis,2
+nosql,redis,2
+redis,typescript,2
+mysql,rest api,2
+git,kafka,2
+kubernetes,nosql,2
+docker,kafka,2
+linux,machine learning,2
+graphql,sql,2
+rest api,sql,2
+angular,jenkins,2
+angular,graphql,2
+angular,mysql,2
+angular,nosql,2
+html,postgresql,2
+angular,flask,2
+angular,linux,2
+css,flask,2
+flask,html,2
+flask,linux,2
+python,redis,2
+django,rest api,2
+flask,rest api,2
+postgresql,rest api,2
+excel,python,2
+django,gcp,2
+flask,gcp,2
+azure,redis,2
+git,redis,2
+flask,java,2
+django,pandas,2
+flask,pandas,2
+pandas,tensorflow,2
+azure,pandas,2
+flask,jenkins,2
+aws,pandas,2
+java,vue,2
+kafka,spark,2
+power bi,tableau,2
+gcp,javascript,2
+aws,redis,2
+ci/cd,redis,2
+c++,java,2
+html,jenkins,2
+jenkins,node,2
+kubernetes,postgresql,2
+hadoop,sql,2
+aws,deep learning,2
+docker,pytorch,2
+django,docker,2
+django,kubernetes,2
+azure,pytorch,2
+azure,tensorflow,2
+gcp,pytorch,2
+gcp,tensorflow,2
+machine learning,spark,2
+docker,vue,2
+docker,nosql,2
+sql,terraform,2
+aws,c++,2
+angular,azure,2
+c#,docker,2
+c#,kubernetes,2
+c#,linux,2
+c#,terraform,2
+c++,machine learning,2
+ci/cd,power bi,1
+gcp,postgresql,1
+git,power bi,1
+java,power bi,1
+mysql,power bi,1
+hadoop,java,1
+azure,graphql,1
+css,kubernetes,1
+git,graphql,1
+git,rest api,1
+graphql,rest api,1
+html,kubernetes,1
+machine learning,terraform,1
+mongodb,vue,1
+graphql,redis,1
+node,rest api,1
+c++,javascript,1
+kafka,linux,1
+angular,gcp,1
+git,machine learning,1
+graphql,kafka,1
+css,postgresql,1
+css,django,1
+django,html,1
+flask,mongodb,1
+linux,mongodb,1
+django,kafka,1
+django,redis,1
+kafka,redis,1
+mysql,pandas,1
+django,spark,1
+ci/cd,django,1
+redis,sql,1
+flask,machine learning,1
+django,pytorch,1
+django,tensorflow,1
+flask,pytorch,1
+flask,tensorflow,1
+azure,excel,1
+excel,flask,1
+excel,pandas,1
+django,vue,1
+flask,vue,1
+rest api,vue,1
+django,jenkins,1
+angular,go,1
+go,java,1
+go,javascript,1
+go,react,1
+go,vue,1
+nosql,spark,1
+kubernetes,spark,1
+aws,tableau,1
+python,tableau,1
+jenkins,mysql,1
+kubernetes,mysql,1
+java,redis,1
+gcp,hadoop,1
+gcp,spark,1
+azure,tableau,1
+deep learning,javascript,1
+javascript,tensorflow,1
+docker,pandas,1
+graphql,machine learning,1
+gcp,pandas,1
+ci/cd,deep learning,1
+java,pandas,1
+deep learning,hadoop,1
+deep learning,kafka,1
+deep learning,spark,1
+hadoop,kafka,1
+hadoop,machine learning,1
+hadoop,pytorch,1
+hadoop,tensorflow,1
+kafka,machine learning,1
+kafka,pytorch,1
+kafka,tensorflow,1
+pytorch,spark,1
+spark,tensorflow,1
+sql,tensorflow,1
+css,redis,1
+docker,redis,1
+git,vue,1
+html,redis,1
+mysql,vue,1
+redis,vue,1
+css,jenkins,1
+jenkins,nosql,1
+flask,typescript,1
+django,terraform,1
+flask,kubernetes,1
+flask,terraform,1
+django,java,1
+aws,vue,1
+kubernetes,vue,1
+sql,vue,1
+terraform,vue,1
+linux,node,1
+azure,vue,1
+c#,vue,1
+linux,typescript,1
+kubernetes,redis,1
+redis,terraform,1
+docker,spark,1
+spark,terraform,1
+jenkins,kafka,1
+kafka,postgresql,1
+c++,mongodb,1
+c++,sql,1
+azure,kafka,1
+azure,mongodb,1
+gcp,kafka,1
+gcp,nosql,1
+kafka,nosql,1
+deep learning,pandas,1
+docker,tensorflow,1
+c++,pytorch,1
+ci/cd,vue,1
+c#,node,1
+gcp,node,1
+jenkins,typescript,1
+angular,machine learning,1
