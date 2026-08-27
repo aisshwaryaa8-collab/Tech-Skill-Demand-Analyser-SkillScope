@@ -1,0 +1,11 @@
+
+KEY FINDINGS - Predictive Modeling
+========================================
+- Task: predict whether a job posting pays above or below its country's median salary, using required skills, skill count, and country as features.
+- Target reframed from raw skill presence to salary tier after discovering multi-currency data (US/GB/India) made a single global salary threshold meaningless.
+- Dataset: 2479 postings with valid salary_max values, after per-country median split (~50/50 class balance).
+- Models compared: Logistic Regression, Decision Tree, Random Forest.
+- Accuracy: Logistic Regression 59.3%, Decision Tree 59.5%, Random Forest 61.1%.
+- ROC-AUC: Logistic Regression 0.63, Decision Tree 0.62, Random Forest 0.65.
+- Random Forest performed best across both metrics, consistent with its ability to capture non-linear interactions between co-occurring skills.
+- Skills and country alone provide moderate predictive signal for salary tier, but likely miss key drivers like seniority, years of experience, and company size not present in this dataset.
