@@ -1,0 +1,9 @@
+
+KEY FINDINGS - Exploratory Data Analysis
+========================================
+- Dataset: 2959 job postings across US, India, and GB.
+- Missing salary data: 480 postings (16.2%).
+- Salary comparisons normalized per-country due to mixed local currencies (INR vs USD vs GBP).
+- Average skills mentioned per posting: 1.6.
+- Skill most positively correlated with salary: skill_count (r=0.17)
+- Skill most negatively correlated with salary: typescript (r=-0.01)
