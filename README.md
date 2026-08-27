@@ -54,7 +54,7 @@ Random Forest performed best across both metrics, likely due to its ability to c
 - **Approach**: Statistical summaries (`.describe()`, missing value checks), distribution analysis of postings by country/category, salary normalization per-country (to correct for mixed local currencies, consistent with Task 2), skill count distribution, and correlation analysis between top skills, skill count, and salary.
 - **Key visualizations**: postings by country/category, salary distribution by country (log scale, boxplot), skill count histogram, correlation heatmap of top 10 skills vs. salary.
 
-**Key results**:
+## Results:
 - 2,959 postings analyzed; 480 (16.2%) had missing salary data
 - Postings are almost entirely IT-category roles (~2,800 of 2,959) — reflects the tech-focused search keywords used in data collection, so findings are specific to the tech job market
 - Average of 1.6 skills mentioned per posting; distribution is right-skewed (most postings list 0–2 skills, a long tail up to 14)
