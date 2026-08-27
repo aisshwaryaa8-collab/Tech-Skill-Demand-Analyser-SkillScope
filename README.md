@@ -46,20 +46,21 @@ Random Forest performed best across both metrics, likely due to its ability to c
 
 **Files**: confusion_matrices_task2.png, roc_curves_task2.png, key_findings_task2.txt
 
-## Task 3: Exploratory Data Analysis (EDA)
 
+## Task 3: Exploratory Data Analysis (EDA)
 `SkillScope_Task3_ExploratoryDataAnalysis.ipynb`
 
 - **Goal**: Analyze the same job posting dataset to uncover patterns in postings, salaries, and skill demand, and identify key factors influencing salary.
-- **Approach**: Statistical summaries (`.describe()`, missing value checks), distribution analysis of postings by country/category, salary normalization per-country (to correct for mixed local currencies from Task 2), skill count distribution, and correlation analysis between top skills, skill count, and salary.
+- **Approach**: Statistical summaries (`.describe()`, missing value checks), distribution analysis of postings by country/category, salary normalization per-country (to correct for mixed local currencies, consistent with Task 2), skill count distribution, and correlation analysis between top skills, skill count, and salary.
 - **Key visualizations**: postings by country/category, salary distribution by country (log scale, boxplot), skill count histogram, correlation heatmap of top 10 skills vs. salary.
 
-## Results:
-
-- [X]% of postings had missing salary data
-- Average of [X] skills mentioned per posting
-- Skill most positively correlated with salary: **[skill]** (r = [value])
-- Skill most negatively correlated with salary: **[skill]** (r = [value])
+**Key results**:
+- 2,959 postings analyzed; 480 (16.2%) had missing salary data
+- Postings are almost entirely IT-category roles (~2,800 of 2,959) — reflects the tech-focused search keywords used in data collection, so findings are specific to the tech job market
+- Average of 1.6 skills mentioned per posting; distribution is right-skewed (most postings list 0–2 skills, a long tail up to 14)
+- Overall skill count correlates most strongly with salary (r = 0.17) — postings listing more skills tend to pay more
+- Among individual skills, JavaScript shows the strongest positive correlation with salary (r = 0.10); TypeScript shows a near-zero/slightly negative correlation (r = -0.01)
+- Salary comparisons required per-country normalization due to mixed local currencies (INR vs USD vs GBP) in the raw data
 
 **Files**: `postings_distribution.png`, `salary_by_country.png`, `skill_count_distribution.png`, `correlation_heatmap.png`, `eda_key_findings.txt`
 
