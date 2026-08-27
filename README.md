@@ -11,13 +11,13 @@ Can required skills predict whether a posting pays above or below its market's m
 
 ## Task 1: Tech Skill Demand Analysis
 
-## SkillScope_Task1_DataCollection.ipynb
+`SkillScope_Task1_DataCollection.ipynb`
 
 Data collection: Pulled job postings via the Adzuna API across 3 countries (US, India, GB) using 10 role-based search keywords (e.g. Python Developer, Data Scientist, DevOps Engineer), deduplicated by job ID.
 Skill extraction: Used a whitelist-based regex approach (~40 tech skills — languages, frameworks, cloud platforms, databases, tools) matched against each posting's title and description, chosen for precision and interpretability over free-text NLP.
 Analysis: Computed skill frequency and skill co-occurrence (pairs), then visualized results.
 
-## Key results (2,959 postings analyzed):
+## Results (2,959 postings analyzed):
 
 78.9% of postings mentioned at least one whitelisted skill
 Most in-demand skill: Python (451 postings)
@@ -28,7 +28,7 @@ Most common skill pairing: JavaScript + React (227 postings)
 
 ## Task 2: Predictive Modeling
 
-## SkillScope_Task2_PredictiveModeling.ipynb
+`SkillScope_Task2_PredictiveModeling.ipynb`
 
 Goal: Predict whether a job posting pays above or below its country's median salary, using required skills, skill count, and country as features.
 Target design: Initially explored predicting individual skill presence, but skill frequencies were too imbalanced (~15–20%) for a meaningful classification target. Also discovered salary_max mixed raw local currencies (USD/GBP/INR) across countries, making a single global salary threshold misleading. Fixed by computing the median within each country and classifying postings as above/below their own country's median — yielding a clean ~50/50 class balance.
@@ -45,6 +45,23 @@ Random Forest	61.1%	0.65
 Random Forest performed best across both metrics, likely due to its ability to capture non-linear interactions between co-occurring skills. Skills and country provide moderate predictive signal for salary tier, but likely miss key drivers not present in this dataset — seniority, years of experience, and company size.
 
 **Files**: confusion_matrices_task2.png, roc_curves_task2.png, key_findings_task2.txt
+
+## Task 3: Exploratory Data Analysis (EDA)
+
+`SkillScope_Task3_ExploratoryDataAnalysis.ipynb`
+
+- **Goal**: Analyze the same job posting dataset to uncover patterns in postings, salaries, and skill demand, and identify key factors influencing salary.
+- **Approach**: Statistical summaries (`.describe()`, missing value checks), distribution analysis of postings by country/category, salary normalization per-country (to correct for mixed local currencies from Task 2), skill count distribution, and correlation analysis between top skills, skill count, and salary.
+- **Key visualizations**: postings by country/category, salary distribution by country (log scale, boxplot), skill count histogram, correlation heatmap of top 10 skills vs. salary.
+
+## Results:
+
+- [X]% of postings had missing salary data
+- Average of [X] skills mentioned per posting
+- Skill most positively correlated with salary: **[skill]** (r = [value])
+- Skill most negatively correlated with salary: **[skill]** (r = [value])
+
+**Files**: `postings_distribution.png`, `salary_by_country.png`, `skill_count_distribution.png`, `correlation_heatmap.png`, `eda_key_findings.txt`
 
 ## Tech Stack
 
